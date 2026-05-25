@@ -224,6 +224,8 @@ Implementation of low-power pipeline techniques and clock-gating methods for red
 
 ## Multi-Core Expansion
 Future extension of the processor architecture into a multi-core FPGA-based processing system.
+
+
 [MIPSpipelineFinal.zip](https://github.com/user-attachments/files/28230633/MIPSpipelineFinal.zip)
 # Authors
 
