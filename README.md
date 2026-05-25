@@ -155,6 +155,75 @@ MIPS-X/
 │
 └── README.md
 ```
+# How to Run
+
+## Vivado Implementation Steps
+
+### Step 1: Open Vivado
+Launch Xilinx Vivado Design Suite on your system.
+
+### Step 2: Create a New Project
+Create a new RTL project and select the Basys 3 FPGA board or Artix-7 device.
+
+### Step 3: Add Verilog Source Files
+Add all Verilog HDL source files including:
+- MIPSpipeline.v
+- ALU.v
+- ControlUnit.v
+- RegisterFile.v
+- DataMemory.v
+- ForwardingUnit.v
+- SevenSegmentDisplay.v
+- Testbench files
+
+### Step 4: Add Constraints File
+Add the Basys 3 FPGA constraints (.xdc) file for switch, clock, and seven-segment display pin mapping.
+
+### Step 5: Run Synthesis
+Run synthesis to generate the RTL schematic and hardware logic optimization results.
+
+### Step 6: Run Implementation
+Run implementation for placement, routing, and timing optimization on the FPGA device.
+
+### Step 7: Generate Bitstream
+Generate the FPGA programming bitstream file (.bit).
+
+### Step 8: Program Basys 3 FPGA
+Connect the Basys 3 board through USB and program the FPGA using Vivado Hardware Manager.
+
+### Step 9: Verify Hardware Output
+Use FPGA switches to select different operations and observe outputs on the seven-segment display.
+
+# Future Improvements
+
+The proposed pipelined MIPS processor architecture can be further enhanced by integrating advanced processor and hardware acceleration features. Some possible future improvements are listed below:
+
+## Floating Point Unit (FPU)
+Addition of IEEE-754 compliant floating-point arithmetic support for scientific and DSP applications.
+
+## Cache Memory
+Implementation of instruction and data cache memory to improve processor speed and reduce memory access latency.
+
+## Advanced Hazard Prediction
+Integration of branch prediction and advanced hazard management techniques for improved pipeline efficiency.
+
+## AI Accelerator Integration
+Incorporation of lightweight AI acceleration modules for machine learning and neural network applications.
+
+## DSP Extensions
+Addition of Digital Signal Processing instructions such as MAC operations and vector arithmetic.
+
+## Larger Matrix Multiplication Support
+Extension of the arithmetic accelerator to support higher-order matrix multiplication operations such as 3×3 and 4×4 matrices.
+
+## UART and Peripheral Interfaces
+Integration of UART, SPI, and I2C communication protocols for external hardware interfacing.
+
+## Power Optimization
+Implementation of low-power pipeline techniques and clock-gating methods for reduced FPGA power consumption.
+
+## Multi-Core Expansion
+Future extension of the processor architecture into a multi-core FPGA-based processing system.
 [MIPSpipelineFinal.zip](https://github.com/user-attachments/files/28230633/MIPSpipelineFinal.zip)
 # Authors
 
