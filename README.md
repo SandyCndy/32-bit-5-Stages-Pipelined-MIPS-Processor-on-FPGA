@@ -122,7 +122,7 @@ Results are displayed on:
 # Project Structure
 
 
-bash
+```bash
 MIPS-X/
 │
 ├── src/
@@ -154,6 +154,7 @@ MIPS-X/
 │   └── Major_Project_Report.pdf
 │
 └── README.md
+```
 [MIPSpipelineFinal.zip](https://github.com/user-attachments/files/28230633/MIPSpipelineFinal.zip)
 # Authors
 
