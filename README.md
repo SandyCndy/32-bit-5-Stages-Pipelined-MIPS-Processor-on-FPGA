@@ -121,7 +121,8 @@ Results are displayed on:
 
 # Project Structure
 
-```bash
+
+bash
 MIPS-X/
 │
 ├── src/
@@ -153,3 +154,17 @@ MIPS-X/
 │   └── Major_Project_Report.pdf
 │
 └── README.md
+[MIPSpipelineFinal.zip](https://github.com/user-attachments/files/28230633/MIPSpipelineFinal.zip)
+# Authors
+
+## Project Developed By
+
+### Sandeep Kumar
+- B.Tech Electronics and Communication Engineering
+- Roll No.: 22134502012
+
+
+Department of Electronics and Communication Engineering  
+School of Engineering and Technology (SOET)  
+Hemvati Nandan Bahuguna Garhwal University  
+Srinagar Garhwal, Uttarakhand
